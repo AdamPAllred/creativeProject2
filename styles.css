@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#dndButton {
+  margin-top: 5px;
+}
+#explain {
+  background-color: #e0876a;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-bottom: 10px;
+}
+
+
+p {
+  font-size: 125%;
+  text-align: center;
+  background-color:  #f9ccac;
+}
+
+body {
+  background-color: #f4a688;
+}
+
+form {
+  padding-top: 2.5%;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+li {
+  font-size: 125%;
+  font-family: monospace;
+}
+
+ul {
+  background-color: #f9ccac;
+    text-align: center;
+  list-style-type: none;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 30px;
+  height: 100px;
+  text-decoration: underline;
+  background-color: #e0876a
+}
+
+h2 {
+  text-align: center;
+  margin-top: 20px;
+  text-decoration: underline;
+  padding-bottom: 20px;
+}
+
+h3 {
+  size: 700%;
+  padding-top: 25px;
+  padding-bottom: 10px;
+  background-color:  #f9ccac;
+  text-decoration: underline;
+}
+
+.head {
+  text-align: center;
+}
+
+#url-github {
+  padding-top: 20%;
+  padding-bottom: 5%;
+  background-color:  #f4a688;
+  text-align: center;
+  color: black;
+  display: flex;
+  width: auto;
+  height: auto;
+  justify-content: center;
+}
+
+
+
+#para {
+  background-color: #f9ccac;
+  text-align: center;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+
+.details-container {
+  border: 5px solid black
+  align-self: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.details-container2 {
+  border: 5px solid white
+  align-self: center;
+  display: flex;
+  justify-content: center;
+}
+
+.details2 {
+  padding-right: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  .day {
+    height: auto;
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+
+  .day-container {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    align-self: center;
+    background-color: #cfe0e8;
+    display: flex;
+    justify-content: center;
+  }
+
+  .day {
+    height: auto;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+  }
+
+}
