@@ -39,6 +39,10 @@ li {
   font-family: monospace;
 }
 
+form {
+  padding-bottom: 10px;
+}
+
 ul {
   background-color: #f9ccac;
     text-align: center;
@@ -47,8 +51,8 @@ ul {
 
 h1 {
   text-align: center;
-  padding-top: 30px;
-  height: 100px;
+  padding-top: 20px;
+  height: 80px;
   text-decoration: underline;
   background-color: #e0876a
 }
@@ -61,21 +65,17 @@ h2 {
 }
 
 h3 {
-  size: 700%;
   padding-top: 25px;
   padding-bottom: 10px;
   background-color:  #f9ccac;
   text-decoration: underline;
 }
 
-.head {
-  text-align: center;
-}
 
 #url-github {
   padding-top: 20%;
-  padding-bottom: 5%;
-  background-color:  #f4a688;
+  padding-bottom: 20%;
+  background-color: #f9ccac;
   text-align: center;
   color: black;
   display: flex;
@@ -93,67 +93,56 @@ h3 {
   padding-right: 20%;
 }
 
-
-.details-container {
-  border: 5px solid black
-  align-self: center;
-  display: flex;
-  justify-content: space-between;
-}
-
-.details {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.details-container2 {
-  border: 5px solid white
-  align-self: center;
-  display: flex;
-  justify-content: center;
-}
-
-.details2 {
-  padding-right: 15px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-
 /* Tablet Styles */
 @media only screen and (min-width: 401px) and (max-width: 960px) {
-  .day {
-    height: auto;
-    width: 75%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
+  h1 {
     text-align: center;
+    padding-top: 20px;
+    height: 100px;
+    text-decoration: underline;
+    background-color: #e0876a
   }
+
+  h2 {
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: underline;
+    padding-bottom: 15px;
+  }
+
+  h3 {
+    padding-top: 25px;
+    padding-bottom: 10px;
+    background-color:  #f9ccac;
+    text-decoration: underline;
+  }
+
 }
 
 /* Desktop Styles */
 @media only screen and (min-width: 961px) {
-
-  .day-container {
-    padding-top: 100px;
-    padding-bottom: 50px;
-    align-self: center;
-    background-color: #cfe0e8;
-    display: flex;
-    justify-content: center;
-  }
-
-  .day {
-    height: auto;
-    width: 90%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+  h1 {
     text-align: center;
+    padding-top: 30px;
+    height: 100px;
+    text-decoration: underline;
+    background-color: #e0876a
   }
+
+  h2 {
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: underline;
+    padding-bottom: 20px;
+  }
+
+  h3 {
+    padding-top: 25px;
+    padding-bottom: 10px;
+    background-color:  #f9ccac;
+    text-decoration: underline;
+  }
+
+
 
 }
